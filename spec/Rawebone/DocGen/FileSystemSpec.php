@@ -28,6 +28,11 @@ class FileSystemSpec extends ObjectBehavior
         }
     }
     
+    function it_should_return_contents()
+    {
+        $this->contents(__FILE__)->shouldBeString();
+    }
+    
     function letgo()
     {
         if (is_file(__FILE__ . "_")) {

@@ -13,4 +13,9 @@ class FileSystem
     {
         return file_put_contents($file, $data);
     }
+    
+    public function contents($file)
+    {
+        return file_get_contents($file);
+    }
 }
