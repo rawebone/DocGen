@@ -1,0 +1,29 @@
+{
+    "name": "rawebone/docgen",
+    "description": "A simple documentation generator",
+    "keywords": [ "documentation", "markdown" ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nick Rawe",
+            "email": "rawebone@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3",
+        "symfony/console": "2.4.*",
+        "michelf/php-markdown": "1.4.0"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "2.0.x-dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Rawebone\\DocGen\\":  [ "library/" ]
+            
+        },
+        "psr-0": {
+            "spec\\": [ "" ]
+        }
+    }
+}
