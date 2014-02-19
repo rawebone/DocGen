@@ -9,8 +9,6 @@ of the output for peoples own needs.
 ```bash
 prompt> docgen file input.md output.html
 prompt> docgen file input.md output.html --template=my-template.php
-prompt> docgen directory docs/ output/
-prompt> docgen directory docs/ output/ --template=my-template.php
 ```
 
 ## License
